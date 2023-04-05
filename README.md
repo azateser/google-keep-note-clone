@@ -62,6 +62,7 @@ npm start
 [⌛] Archive Note <br />
 [⌛] Unarchive Note <br />
 [⌛] Add Tag <br />
+[⌛] Add Local Storage Notes <br />
 
 
 [⬆ Back to top](#table-of-contents)
