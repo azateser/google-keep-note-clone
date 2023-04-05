@@ -12,7 +12,7 @@ This is a clone of Google KeepNote App. This is a simple note taking app. This a
 
 ## Demo (Live Preview)
 
-[Live Demo](#)
+[Live Demo](https://azateser.github.io/google-keep-clone/dist/index.html)
 
 ## Features
 
