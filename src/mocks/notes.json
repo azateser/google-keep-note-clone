@@ -48,7 +48,7 @@
         "bgImage": "",
         "archive": false,
         "trash": false,
-        "pinned": true
+        "pinned": false
     },
     {
         "id": 4,
@@ -109,7 +109,7 @@
         "bgImage": "https://www.gstatic.com/keep/backgrounds/notes_light_0609.svg",
         "archive": false,
         "trash": false,
-        "pinned": true,
+        "pinned": false,
         "tags": [
             "tag1",
             "tag2",
