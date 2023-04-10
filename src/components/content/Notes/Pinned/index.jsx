@@ -6,14 +6,15 @@ import Masonry from 'react-masonry-css'
 
 import './style.css'
 
-import Note from './Note/index';
+import Note from '../Note/index';
 import { useSelector } from 'react-redux';
 
 
-const Notes = ({notes}) => {
+const Pinned = ({notes}) => {
 
   const activePinnedCount = useSelector((state) => state.notes.activePinnedCount);
 
+console.log(notes)
   const breakpointColumnsObj = {
     default: 6,
     1800: 5,
@@ -23,18 +24,18 @@ const Notes = ({notes}) => {
     750: 1
   };
   return (
-    <S.NotesWrapper>
-      {activePinnedCount > 0 && <S.NotesTitle>Diğerleri</S.NotesTitle>}
+    <S.PinnedWrapper>
+      {activePinnedCount > 0 && <S.PinnedTitle>Pinned</S.PinnedTitle>}
     <Masonry
     breakpointCols={breakpointColumnsObj}
     className="my-masonry-grid"
     columnClassName="my-masonry-grid_column">
-      {notes?.map((note) => ( !note.pinned &&
+      {notes?.map((note) => ( note.pinned &&
         <Note key={note?.id} noteData={note} />
       ))}
   </Masonry>
-      </S.NotesWrapper>
+      </S.PinnedWrapper>
   )
 }
 
-export default Notes
+export default Pinned

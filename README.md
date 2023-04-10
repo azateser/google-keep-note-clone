@@ -57,8 +57,8 @@ npm start
 [⌛] UnBin Note <br />
 [⌛] Edit Note <br />
 [⌛] Search Note <br />
-[⌛] Pin Note <br />
-[⌛] Unpin Note <br />
+[✅] Pin Note <br />
+[✅] Unpin Note <br />
 [⌛] Archive Note <br />
 [⌛] Unarchive Note <br />
 [⌛] Add Tag <br />

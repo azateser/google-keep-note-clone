@@ -5,6 +5,7 @@ import NotesData from "../../mocks/notes.json";
 const initialState = {
   notes: NotesData || [],
   activeNote: null,
+  activePinnedCount: 0,
 };
 
 
@@ -31,9 +32,16 @@ export const notesSlice = createSlice({
       state.notes = state.notes.filter((note) => note.id !== action.payload);
       state.activeNote = null;
     },
+    togglePin: (state, action) => {
+      const noteIndex = state.notes.findIndex(
+        (note) => note.id === action.payload
+      );
+      state.notes[noteIndex].pinned = !state.notes[noteIndex].pinned;
+      state.activePinnedCount = state.notes.filter((note) => note.pinned).length;
+    }
   },
 });
 
-export const { addNote, setActiveNote, updateNote, deleteNote } = notesSlice.actions;
+export const { addNote, setActiveNote, updateNote, deleteNote, togglePin } = notesSlice.actions;
 
 export default notesSlice.reducer;
