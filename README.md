@@ -32,7 +32,7 @@ This is a clone of Google KeepNote App. This is a simple note taking app. This a
 
 ## Screenshots
 
-![Screenshot](./readme_assets/ss1.png)
+![Screenshot](./readme_assets/Screenshot 2023-04-06 at 01.25.07.png)
 
 ## Installation
 
