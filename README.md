@@ -51,18 +51,8 @@ npm start
 [✅] Get Notes <br />
 [✅] Add Note <br />
 [✅] Note Color <br />
-[⌛] Note Image <br />
-[⌛] Note Todo Feature <br />
-[⌛] Delete Note Add Bin <br />
-[⌛] UnBin Note <br />
-[⌛] Edit Note <br />
-[⌛] Search Note <br />
 [✅] Pin Note <br />
 [✅] Unpin Note <br />
-[⌛] Archive Note <br />
-[⌛] Unarchive Note <br />
-[⌛] Add Tag <br />
-[⌛] Add Local Storage Notes <br />
 
 
 [⬆ Back to top](#table-of-contents)
